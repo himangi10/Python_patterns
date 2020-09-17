@@ -1,0 +1,29 @@
+#BMI calculator using function where weight(in kgs),height(in meters)
+
+def bmi_cal(name,height,weight):
+    bmi=(weight/height**2)
+    print(f"{name}'s bmi is {bmi}" )
+    if bmi<25:
+        return (f"{name} is not overweight")
+    else:
+        return(f"{name} is overweight")
+
+#example
+    
+tom=bmi_cal("tom",1.57,60)
+print(tom)
+
+harry=bmi_cal("harry",1.83,74)
+print(harry)
+
+ron=bmi_cal("ron",1.74,88)
+print(ron)
+
+#Result
+
+tom's bmi is 24.341758286340216
+tom is not overweight
+harry's bmi is 22.096807907073963
+harry is not overweight
+ron's bmi is 29.065926806711587
+ron is overweight
