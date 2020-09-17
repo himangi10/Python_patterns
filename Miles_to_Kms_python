@@ -1,0 +1,18 @@
+#calculate miles to kms using function -python
+def km_cal(miles):
+    print(f"conversion from {miles} miles to km is")
+    return (1.6*miles)
+
+#example 1
+
+a=km_cal(9)
+print(a)
+
+conversion from 9 miles to km is
+14.4
+
+#example 2
+
+km_cal(22)
+conversion from 22 miles to km is
+35.2
